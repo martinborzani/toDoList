@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+main{
+    min-height: 90vh;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* ------------ TITULO ------------   */
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+/* ------------ CONTENEDOR NOTA ------------   */
+
+.box1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+/* ------------ NOTA ------------   */
+
+.note{
+    margin-top: 6rem;
+    width: 25rem;
+    height: 15rem;
+    border: 2px solid #0e1a28;
+    text-align: center;
+    padding-top: 3rem;
+    background-color: #0d2542;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    
+}
+
+.note h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.note button{
+    margin-top: 2rem;
+    width: 5rem;
+    
+}
+
+/* ------------ BOTONES ------------   */
+
+.boton_borrar{
+    margin-right: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.boton_editar{
+    margin-left: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.hover_boton:hover{
+    background-color: #1b2b40;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+/* ------------ FOOTER ------------   */
+
+
+footer{
+    min-height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+footer span{
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+footer a{
+    margin-left: 1rem;
+    text-decoration: none;
+
+}
+
+
+/* ------------ MEDIAQUERIES ------------   */
+
+
+@media (min-width: 425px) {
+    .note{
+        margin-left: 2rem;
+    }
+
+    footer{
+        margin-top: 1.5rem;
+    }
+}
+
+@media (min-width: 375px) {
+    .note{
+        margin-left: 2rem;
+    }
+
+    footer{
+        margin-top: 1.5rem;
+    }
+
+    footer p{
+        margin-top: 1.5rem;
+    }
+}
